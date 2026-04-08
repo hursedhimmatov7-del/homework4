@@ -30,7 +30,7 @@ header{
     padding: 10vh 0vh;
     background-color: #F4F4F5;
     position: relative;
-    margin-bottom: 10vh;
+    margin-bottom: 20vh;
 }
 .sec1div{
     display: flex;
@@ -118,6 +118,75 @@ font-size: 60px;
 .file2{
     display: none;
 }
+.sec3{
+  max-width: 1400px;
+  margin: auto;
+  margin-top: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 5vh;
+}
+.grid{
+    width: 96%;
+    display: grid;
+    gap: 5vh;
+    grid-template-columns: repeat(4 ,24%);
+    grid-template-rows: repeat(1 , 300px 140px);
+}
+.box{
+    border: 2px solid rgba(0, 0, 0, 0.278);
+    border-radius: 10px;
+}
+.p1{
+    padding-bottom: 3vh;
+    border-bottom: 1px solid grey;
+}
+.box11{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 3vh;
+    padding: 10%;
+}
+.butt{
+    display: flex;
+    align-items: center;
+    gap: 1vh;
+}
+.butt button{
+    border: none;
+    padding: 1vh 2vh;
+    border-radius: 5px;
+}
+ .but1{
+    background-color: #D7B18D;
+ }
+ .but2{
+   border: 1px solid #D7B18D !important;
+    background-color: white;
+ }
+ .box22{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 3vh;
+    padding: 7% 10%;
+ }
+ .b1{
+    padding-bottom: 3vh;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.297);
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+  .b2{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
 @media (max-width:500px){
     header img{
         width: 30%;
@@ -192,5 +261,16 @@ font-size: 60px;
         right: 0;
         bottom: 0;
         width: 52%;
+    }
+    .sec3{
+        padding-top: 10vh;
+        align-items: center;
+        width: 90%;
+        margin: auto;
+    }
+    .grid{
+        display: flex;
+        flex-direction: column;
+        gap: 3vh;
     }
 }
