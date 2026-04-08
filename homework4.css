@@ -19,3 +19,102 @@ header{
     padding: 2vh 2vh;
     border-radius: 10px;
 }
+.rus img{
+    border: 2px solid grey;
+    border-radius: 25%;
+}
+.sec1{
+    margin-top: 5vh;
+    max-width: 1400px;
+    margin: auto;
+    padding: 10vh 0vh;
+    background-color: #F4F4F5;
+    position: relative;
+}
+.sec1div{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 4vh;
+    padding-left: 4%;
+}
+.racer{
+    position: absolute;
+    bottom: 0;
+    right: 10vh;
+    width: 40%;
+}
+.sec1div h4{
+    font-size: 55px;
+    font-weight: 500;
+}
+.sec1div img{
+    width: 40%;
+}
+.tel button{
+    border: none;
+    background-color: #D7B18D;
+    padding: 2vh 3vh;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.tel{
+    display: flex;
+    align-items: center;
+    gap: 2vh;
+}
+.tel i{
+    color: white;
+    background-color: #08A652;
+    padding: 1.5vh;
+    font-size: 30px;
+    border-radius: 5px;
+}
+.sec1media{
+    display: none;
+}
+@media (max-width:500px){
+    header img{
+        width: 30%;
+    }
+    .rus{
+       background-color: white;
+    }
+    .sec1{
+        display: none;
+    }
+    .sec1media{
+        position: relative;
+        width: 95%;
+        margin: auto;
+        display: flex;
+        gap: 4vh;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        overflow: hidden;
+    }
+   .race{
+    width: 100%;
+    padding-left: 20%;
+   }
+    .sec1media h1{
+        font-size: 40px;
+    }
+    .sec1media p{
+        font-size: 20px;
+    }
+    .frame13{
+        position: absolute;
+       bottom: 20vh;
+       width: 100% !important;
+    }
+    .tel2{
+        width: 100%;
+        position: absolute;
+        bottom: 5vh;
+    }
+    .tel2 button{
+        width: 80%;
+    }
+}
