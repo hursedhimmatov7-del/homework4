@@ -251,6 +251,7 @@ font-size: 60px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    margin-bottom: 10vh;
  }
  .sec5div1{
     display: flex;
@@ -275,6 +276,105 @@ font-size: 60px;
     border-radius: 5px;
  }
  .ili{
+    display: none;
+ }
+ .lastsec{
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10vh;
+ }
+ .lastsec h4{
+    font-size: 15px;
+    font-weight: 300;
+    border: 1px solid black;
+    padding: 1vh 2vh;
+    border-radius: 50%;
+ }
+ .lastsec p{
+    font-size: 15px;
+ }
+ .lastsec img{
+    width: 10% !important;
+ }
+ .divv{
+    display: flex;
+    align-items: center;
+    gap: 2vh;
+ }
+ footer{
+    margin-top: 20vh;
+    max-width: 1400px;
+    margin: auto;
+    padding: 5vh 0vh;
+    background-color: #212731;
+    position: relative;
+    margin-bottom: 10vh;
+ }
+ .foot{
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    align-items: start;
+    color: white;
+    padding-left: 5%;
+    position: relative;
+    z-index: 1;
+ }
+ .foot h1{
+    font-size: 55px;
+    font-weight:300;
+ }
+ .foot p{
+    color: #7A7E84;
+    font-size: 20px;
+ }
+ .foot h4{
+    font-weight: 300;
+    border-radius: 5px;
+    padding: 2vh 4vh;
+    font-size: 20px;
+    background-color: #28303D;
+ }
+ .vec3{
+    width: 70%;
+    position: absolute;
+    right: 0;
+    top: 0;
+ }
+ .framee{
+    position: absolute;
+    bottom: 10%;
+    left: 44%;
+    z-index: 1;
+ }
+ .phone{
+    width: 34.4%;
+    position: absolute;
+    bottom: 0;
+    left: 55%;
+    z-index: 1;
+ }
+ .footimg{
+        display: flex;
+      align-items: start;
+      flex-direction: column;
+      gap: 2vh;
+    display: none;
+ }
+ .medphone{
+    display: none;
+ }
+ .last{
+    max-width: 1400px;
+    margin: auto;
+    height: 300px;
+    background-color: #F4F4F4;
+    margin-bottom: 5vh;
+ }
+ .lastp{
     display: none;
  }
 @media (max-width:500px){
@@ -377,6 +477,7 @@ font-size: 60px;
         width: 100%;
     }
     .sec5{
+        margin-bottom: 5vh !important;
         width: 90%;
         margin: auto;
         gap: 4vh;
@@ -412,5 +513,61 @@ font-size: 60px;
         align-items: center;
         padding: 1vh 6vh;
         align-self: flex-end;
+    }
+    .lastsec{  
+        align-items: start;
+        width: 90%;
+        margin: auto;
+        gap: 4vh;
+        flex-direction: column;
+        margin-bottom: 5vh;
+    }
+    .lastsec p{
+        font-size: 20px;
+    }
+    .lastsec img{
+        display: none;
+    }
+    footer{
+        padding: 2vh 0vh;
+        width: 90%;
+        margin: auto;
+    }
+    .foot h1{
+        font-size: 20px;
+    }
+    footer  img{
+        display: none;
+    }
+    .foot p{
+        font-size: 15px;
+    }
+    .footimg{
+      display: inline !important;
+        display: flex !important;
+      align-items: start !important;
+      flex-direction: column !important;
+      gap: 2vh !important;
+    }
+    .footimg img{
+        display: inline !important;
+    }
+    .medphone{
+        width: 60%;
+        display: inline;
+        position: absolute;
+        bottom: -3vh;
+        right: 0;
+    }
+    .last{
+      padding-top: 10vh;
+      padding-bottom: 10vh !important;
+        width: 90%;
+        margin: auto;
+        background-color: white;
+        height: 40vh;
+    }
+    .lastp{
+        display: inline;
     }
 }
